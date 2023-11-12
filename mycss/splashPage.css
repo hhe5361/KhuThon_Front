@@ -1,0 +1,17 @@
+body{
+    background-color: #3B63FF;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.qr-button button{
+    font-weight: bold;
+}
+.splash-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    gap: 15px;
+}

@@ -1,0 +1,133 @@
+.real-main{
+    padding-bottom: 15px;
+    position: relative;
+    margin-top: 15px;
+}
+
+.main {
+    display: grid;
+    grid-auto-flow:row;
+    grid-auto-rows: minmax(70px, auto);
+    row-gap: 3%;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: space-evenly;
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    column-gap: 2.5%;
+    overflow-y:auto;
+    /* font-family: "Inter-Bold", Helvetica; */
+  }
+.item1{
+    grid-column: 1 / 4;
+    font-size: 26px;
+    font-weight: 700;
+    height: 65px;
+    text-indent: 15px;
+    letter-spacing: 0;
+    line-height: 10%;
+    position: relative;
+    margin-top: 4%;
+}
+.item2{
+    grid-column: 1 / 4;
+    background-color: #eef1ff;
+    border-radius: 10px;
+    text-indent: 15px;
+    line-height: 70%;
+}
+.item3{
+    grid-column: 1 / 4;
+    background-color: #eef1ff;
+    border-radius: 10px;
+    line-height: 50%;
+    font-weight: 700;
+}
+.score{
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    margin-left: 10px;
+}
+.item4{
+    grid-column: 1 / 4;
+    background-color: #eef1ff;
+    border-radius: 10px;
+    text-indent: 15px;
+    line-height: 50%;
+    text-align: right;
+    padding-right: 5%;
+    display: inline-block;
+}
+.mini{
+    background-color: #eef1ff;
+    border-radius: 10px;
+    font-family: "Inter-Bold", Helvetica;
+    text-indent: 5%;
+    line-height: 50%;
+    left: 15px;
+    font-weight: 500;
+}
+.hometitle1{
+    float:left;
+}
+.hometitle2{
+    float:left;
+    color: #3b63ff;
+}
+.title2{
+    font-size: 20;
+    font-weight: 700;
+}
+.title4{
+    font-size: 26;
+    text-align: right;
+    padding-right: 8%;
+}
+.context{
+    font-size: 19px;
+    font-weight: 700;
+}
+.context2-2{
+    color: #3b63ff;
+    font-weight: 700;
+    font-size: 26px;
+}
+.context2-3{
+    font-weight: 700;
+    font-size: 26px;
+}
+.contextnum{
+    margin-right: -4px;
+}
+.booth-image{
+    margin: 15px 0px 0px 15px;
+    width: 300px;
+
+}
+.booth-text{
+    position: relative;
+}
+.ranking{
+    text-align: left;
+    font-size: 40px;
+    margin-left: 15px;
+    margin-bottom: 0;
+    position: relative;
+    top: -8px;
+}
+.map{
+    grid-column: 1 / 4;
+    background-color: #eef1ff;
+    border-radius: 10px;
+    grid-row: 4 / span 2;
+    margin-top: 2.5%;
+}
+
+.recentnoti{
+    grid-column: 1 / 4;
+    background-color: #eef1ff;
+    border-radius: 10px;
+    margin-top: 2.5%;
+}

@@ -1,0 +1,32 @@
+.mini{
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+}.mini1 {
+    flex:1;
+    width:30%;
+    box-sizing: border-box;
+}
+.mini2{
+    flex:1;
+    width:30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-sizing: border-box;
+}
+.mini3{
+    flex:1;
+    width:30%;
+    box-sizing: border-box;
+}
+
+.rank-box h1,
+.rank-box h2{
+    display: inline;
+}
+
+.score{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}

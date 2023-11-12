@@ -1,0 +1,24 @@
+.header{
+    font-family: "Inter-Bold", Helvetica;
+    float:left;
+}
+
+.blue {
+    color: #3b63ff;
+}
+
+.small-context{
+    font-size: 20;
+    font-weight: 700;
+}
+
+.large-context{
+    font-size: 26;
+    text-align: right;
+    font-weight: 700;
+    padding-right: 8%;
+}
+
+.context{
+    line-height: 120%;
+}
